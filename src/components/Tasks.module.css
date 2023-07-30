@@ -1,0 +1,78 @@
+.tarefas {
+    margin: 6rem 2rem;
+
+    width: 46rem;
+    height: 17.93rem;
+
+}
+
+.headerTarefas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    align: center;
+    gap: 0.5rem;
+    
+}
+
+.headerTarefas p {
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.textPurple {
+    color: var(--purple)!important;
+}
+
+.headerTarefas span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+
+    padding: 0.2rem 0.5rem;
+    
+    border-radius: 999px;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.descritivo {
+    margin-top: 1.5rem;
+    border-top: solid 1px var(--gray-400);
+    border-radius: 8px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 1.5rem;
+}
+
+.clip {
+    margin: 3rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    color: var(--gray-400)
+}
+
+.descritivo p {
+    font-size: 1rem;
+    color: var(--gray-300)
+}
+
+
+
+
+
